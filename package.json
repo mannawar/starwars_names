@@ -1,0 +1,27 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random star wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannawar/starwars_names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "\"Mannawar Hussain\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mannawar/starwars_names/issues"
+  },
+  "homepage": "https://github.com/mannawar/starwars_names#readme",
+  "devDependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
