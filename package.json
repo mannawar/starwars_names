@@ -1,5 +1,5 @@
 {
-  "name": "starwars__names_by mannawar",
+  "name": "starwars__names_by_mannawar",
   "version": "1.0.0",
   "description": "Get random star wars names",
   "main": "src/index.js",
