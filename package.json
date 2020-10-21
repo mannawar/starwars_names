@@ -1,14 +1,15 @@
 {
   "name": "starwars__names_by_mannawar",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random star wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mannawar/starwars_names.git"
+    "url": "https://github.com/mannawar/starwars_names.git"
   },
   "keywords": [
     "random",
@@ -18,10 +19,13 @@
   "author": "\"Mannawar Hussain\"",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mannawar/starwars_names/issues"
+    "url": "git@github.com/mannawar/starwars_names/issues"
   },
-  "homepage": "https://github.com/mannawar/starwars_names#readme",
+  "homepage": "git@github.com/mannawar/starwars_names#readme",
   "devDependencies": {
-    "unique-random-array": "2.0.0"
+    "chai": "4.2.0",
+    "mocha": "8.2.0",
+    "unique-random-array": "2.0.0",
+    "semantic-release": "^17.2.1"
   }
 }
